@@ -1,0 +1,48 @@
+.color-negro {
+    color: black;
+}
+.center {
+    text-align: center;
+
+}
+
+section{
+    background: url(_IAN0186.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh);
+}
+
+.color-red {
+    color: black;
+    text-align: center;
+}
+.w-30 {
+    width: 50%;
+}
+ul {
+    overflow: hidden;
+    list-style: none;
+    display: inline-block;
+}
+nav {
+    background-color: black;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+ul li {
+    float:right;
+}
+li a {
+    color: white;
+    display: block;
+    padding: 14px 30px;
+    text-decoration: none;
+
+}
+li a.active, li a:hover{
+    background: #967C6D;
+    transition: .5s;
+}
